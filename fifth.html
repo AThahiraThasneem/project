@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dessert Delights</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+<style>
+
+   *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+   
+   }
+   main{
+   width:100%;
+   height:100vh;
+   background:#F5F5F5;
+   padding-top:60px;
+   }
+   #title
+   {
+   font-size:45px;
+   text-align:center;
+   color:#3F2305;
+   }
+   
+   .main-container{
+    width:100%;
+    height:500px;
+    margin-top:100px;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;  /* Allow cards to wrap to the next line */
+   
+    justify-content: space-between;  /* Distribute space between cards evenly */
+    box-sizing: border-box;
+   }
+   
+   .containers{
+       width:30%;
+       height:400px;
+       box-shadow:rgba(0,0,0,0.3) 3px 3px 6px 0px inset, rgba(0,0,0,0.3) -3px -3px 6px 1px inset;
+       background-position:center;
+       background-size:cover;
+       border-radius:10px;
+       cursor:pointer;
+       overflow:hidden;
+       transition: all 0.8s;
+       margin-bottom: 50px; /*space between one line cards to next line cards*/
+     
+     }
+   .first{
+       background-image: url('D:/nan mudhalvan/ft.jpg');
+     }
+   .second{
+       background-image: url('D:/nan mudhalvan/cut.jpg');
+     }
+   .third{
+       background-image: url('D:/nan mudhalvan/chocotart.jpg');
+     }
+   .content{
+       width:100%;
+       height:100%;
+       transform:translateY(70%);
+       transition:0.7s ease-in-out;
+     }
+   
+     .content h1{
+      color:white;
+      margin-left:25px;
+      font-size:30px;
+      text-shadow:1px 1px 1px#000;
+      padding-top:50px;
+     }
+   
+   .content p{
+     text-align:justify;
+     width:75%;
+     color:#c3c3c3;
+     margin-left:25px;
+     margin-top:25px;
+     font-size:16px;
+   
+   }
+   .content span {
+      margin-left:25px;
+      color:#F5EDED;
+      font-size:12px;
+   }
+   .containers:hover > .content{
+     transform:translateY(0%);
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6));
+     
+   }
+</style>
+<div class="containers first">
+    <div class="content">
+        <h1>Fruit Tarts</h1>
+        <span></span>
+        <p>Fruit tarts are a delightful and elegant dessert that can showcase the beauty and flavors of fresh fruits.</p>
+        <button class="bookBtn"><a href="D:/nan mudhalvan/fifthf.html">click</a></button>
+    </div></div>
+
+<div class="containers second">
+     <div class="content">
+            <h1>Custard Tarts</h1>
+            <span></span>
+            <p> Custard tarts are a classic dessert known for their creamy and luscious custard filling encased in a flaky pastry crust.</p>
+            <button class="bookBtn"><a href="D:/nan mudhalvan/fifthcu.html">click</a></button>
+             </div></div>
+                    
+<div class="containers third">
+    <div class="content">
+            <h1>Chocolate Tarts</h1>
+            <span></span>
+            <p>Chocolate tarts are a decadent and indulgent dessert that's perfect for chocolate lovers.</p>
+            <button class="bookBtn"><a href="D:/nan mudhalvan/fifthcho.html">click</a></button>
+            </div></div> 
+    </body>
+    </html>

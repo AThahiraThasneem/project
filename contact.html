@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us - DESSERT DELIGHT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>CONTACT  US </h1>
+		
+	</header>
+	<main>
+		<section class="contact-section">
+			<h2>Get in Touch</h2>
+			<form action="mailto:dessertdelight23@gmail.com" method="post" enctype="text/plain">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+		<section class="info-section">
+			<h2>Contact Information</h2>
+			<ul>
+				<li><strong>Email:</strong>dessertdelight23@gmail.com</li>
+				<li><strong>Address:</strong> 123 Main St, tamil nadu, India</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 DESSERT DELIGHT. All rights reserved.</p>
+	</footer>
+</body>
+<style>header {
+	background-color: #007bff;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+.contact-section h2,
+.info-section h2 {
+	margin-top: 0;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+form input[type="submit"] {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+
+.info-section ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.info-section li {
+	margin-bottom: 10px;
+}
+</style>
+</html>

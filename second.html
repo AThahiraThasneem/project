@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dessert Delights</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>  
+</head>
+<body>
+    <style>
+   
+
+   *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+   
+   }
+   main{
+   width:100%;
+   height:100vh;
+   background:#F5F5F5;
+   padding-top:60px;
+   }
+   #title
+   {
+   font-size:45px;
+   text-align:center;
+   color:#3F2305;
+   }
+   
+   .main-container{
+    width:100%;
+    height:500px;
+    margin-top:100px;
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;  /* Allow cards to wrap to the next line */
+   
+    justify-content: space-between;  /* Distribute space between cards evenly */
+    box-sizing: border-box;
+   }
+   
+   .containers{
+       width:30%;
+       height:400px;
+       box-shadow:rgba(0,0,0,0.3) 3px 3px 6px 0px inset, rgba(0,0,0,0.3) -3px -3px 6px 1px inset;
+       background-position:center;
+       background-size:cover;
+       border-radius:10px;
+       cursor:pointer;
+       overflow:hidden;
+       transition: all 0.8s;
+       margin-bottom: 50px; /*space between one line cards to next line cards*/
+     
+     }
+   .first{
+       background-image: url('D:/nan mudhalvan/cco.jpg');
+     }
+   .second{
+       background-image: url('D:/nan mudhalvan/bco.jpg');
+     }
+   .third{
+       background-image: url('D:/nan mudhalvan/pco.jpg');
+     }
+   .content{
+       width:100%;
+       height:100%;
+       transform:translateY(70%);
+       transition:0.7s ease-in-out;
+     }
+   
+     .content h1{
+      color:white;
+      margin-left:25px;
+      font-size:30px;
+      text-shadow:1px 1px 1px#000;
+      padding-top:50px;
+     }
+   
+   .content p{
+     text-align:justify;
+     width:75%;
+     color:#c3c3c3;
+     margin-left:25px;
+     margin-top:25px;
+     font-size:16px;
+   
+   }
+   .content span {
+      margin-left:25px;
+      color:#F5EDED;
+      font-size:12px;
+   }
+   .containers:hover > .content{
+     transform:translateY(0%);
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6));
+     
+   }
+   
+    </style>
+
+<div class="containers first">
+    <div class="content">
+        <h1>Chocolate Chips Cookies</h1>
+        <span></span>
+        <p>Chocolate chips or chocolate morsels are small chunks of sweetened chocolate, used as an ingredient in a number of desserts </p>
+        <button class="bookBtn"><a href="D:/nan mudhalvan/secondc.html">click</a></button>
+    </div></div>
+
+<div class="containers second">
+     <div class="content">
+            <h1>Sugar Cookies</h1>
+            <span></span>
+            <p>Sugar cookies have a plain flavor and have been made for centuries. The popularity and availability of sugar cookies rose when sugar became widely available. </p>
+            <button class="bookBtn"><a href="D:/nan mudhalvan/seconds.html">click</a></button>
+             </div></div>
+                    
+<div class="containers third">
+    <div class="content">
+            <h1>Peanut Butter Cookies</h1>
+            <span></span>
+            <p>A peanut butter cookie is a type of cookie that is distinguished for having peanut butter as a principal ingredient. The cookie originated in the United States, its development dating back to the 1910s.</p>
+            <button class="bookBtn"><a href="D:/nan mudhalvan/secondp.html">click</a></button>
+            </div></div> 
+    </body>
+    </html>
